@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SFS",
+        "BgB"
+    ],
+    "key": {
+        "#": "minecraft:leather",
+        "S": "minecraft:saddle",
+        "F": "minecraft:feather",
+        "B": "minecraft:breeze_rod",
+        "g": "minecraft:gold_ingot"
+    },
+    "result": {
+        "id": "pegasus-mod:pegasus_saddle",
+        "count": 1
+    },
+    "group": "pegasus_items"
+}
