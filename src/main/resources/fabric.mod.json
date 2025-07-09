@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pegasusmod",
+	"version": "${version}",
+	"name": "Pegasus Mod",
+	"description": "Pegasus Mod by Pigas22 for learning modding in Minecraft 1.21.X",
+	"authors": [
+		"Pigas22!"
+	],
+	"contact": {
+		"homepage": "https://github.com/Pigas22",
+		"sources": "https://github.com/Pigas22/Fabric-PegasusMod-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/pegasusmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pigas22.pegasusmod.PegasusMod"
+		],
+		"fabric-datagen": [
+			"net.pigas22.pegasusmod.PegasusModDataGenerator"
+		],
+		"client": [
+			"net.pigas22.pegasusmod.PegasusModClient"
+		]
+	},
+	"mixins": [
+		"pegasusmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
